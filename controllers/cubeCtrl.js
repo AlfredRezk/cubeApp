@@ -33,7 +33,7 @@ exports.getHome = asyncHandler(async(req, res, next) => {
     cubes = cubes.filter((cube) => cube.level <= req.query.to);
   }
     
-  res.render("index.hbs", {cubes, title:'Home Page'});
+  res.render("index.hbs", {cubes, title:'Home Page 2'});
 })
 
 exports.getAbout = (req, res) => {
